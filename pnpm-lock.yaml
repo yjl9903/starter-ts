@@ -4,21 +4,21 @@ importers:
 
   .:
     specifiers:
-      '@types/node': ^17.0.36
+      '@types/node': ^17.0.40
       bumpp: ^7.1.1
       prettier: ^2.6.2
-      typescript: ^4.7.2
+      typescript: ^4.7.3
       unbuild: ^0.7.4
       vite: ^2.9.9
-      vitest: ^0.13.0
+      vitest: ^0.14.0
     devDependencies:
-      '@types/node': 17.0.36
+      '@types/node': 17.0.40
       bumpp: 7.1.1
       prettier: 2.6.2
-      typescript: 4.7.2
+      typescript: 4.7.3
       unbuild: 0.7.4
       vite: 2.9.9
-      vitest: 0.13.0
+      vitest: 0.14.0
 
 packages:
 
@@ -376,14 +376,14 @@ packages:
     resolution: {integrity: sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==}
     dev: true
 
-  /@types/node/17.0.36:
-    resolution: {integrity: sha512-V3orv+ggDsWVHP99K3JlwtH20R7J4IhI1Kksgc+64q5VxgfRkQG8Ws3MFm/FZOKDYGy9feGFlZ70/HpCNe9QaA==}
+  /@types/node/17.0.40:
+    resolution: {integrity: sha512-UXdBxNGqTMtm7hCwh9HtncFVLrXoqA3oJW30j6XWp5BH/wu3mVeaxo7cq5benFdBw34HB3XDT2TRPI7rXZ+mDg==}
     dev: true
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 17.0.36
+      '@types/node': 17.0.40
     dev: true
 
   /ansi-styles/3.2.1:
@@ -1281,7 +1281,7 @@ packages:
     hasBin: true
     dev: true
 
-  /mkdist/0.3.10_typescript@4.7.2:
+  /mkdist/0.3.10_typescript@4.7.3:
     resolution: {integrity: sha512-Aoc6hjILr2JPUJU2OUvBiD5sZ/CG1FeiXwk6KKPqE0iSTjBCrjrVK/fP5ig+TB3AKHvh2aA2QXXGeXVCJBdSwg==}
     hasBin: true
     peerDependencies:
@@ -1297,7 +1297,7 @@ packages:
       jiti: 1.13.0
       mri: 1.2.0
       pathe: 0.2.0
-      typescript: 4.7.2
+      typescript: 4.7.3
     dev: true
 
   /mlly/0.3.19:
@@ -1433,7 +1433,7 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup-plugin-dts/4.2.1_hi7fr2j6gi7pnuw5jjyc7kfteq:
+  /rollup-plugin-dts/4.2.1_l5gb773unvgvobygpan2bw2uzi:
     resolution: {integrity: sha512-eaxQZNUJ5iQcxNGlpJ1CUgG4OSVqWjDZ3nNSWBIoGrpcote2aNphSe1RJOaSYkb8dwn3o+rYm1vvld/5z3EGSQ==}
     engines: {node: '>=v12.22.11'}
     peerDependencies:
@@ -1442,7 +1442,7 @@ packages:
     dependencies:
       magic-string: 0.26.1
       rollup: 2.70.1
-      typescript: 4.7.2
+      typescript: 4.7.3
     optionalDependencies:
       '@babel/code-frame': 7.16.7
     dev: true
@@ -1586,8 +1586,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /typescript/4.7.2:
-    resolution: {integrity: sha512-Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==}
+  /typescript/4.7.3:
+    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
@@ -1615,7 +1615,7 @@ packages:
       jiti: 1.13.0
       magic-string: 0.26.1
       mkdirp: 1.0.4
-      mkdist: 0.3.10_typescript@4.7.2
+      mkdist: 0.3.10_typescript@4.7.3
       mlly: 0.5.2
       mri: 1.2.0
       pathe: 0.2.0
@@ -1623,10 +1623,10 @@ packages:
       pretty-bytes: 6.0.0
       rimraf: 3.0.2
       rollup: 2.70.1
-      rollup-plugin-dts: 4.2.1_hi7fr2j6gi7pnuw5jjyc7kfteq
+      rollup-plugin-dts: 4.2.1_l5gb773unvgvobygpan2bw2uzi
       rollup-plugin-esbuild: 4.9.1_vioqp3gnyr4eeol67lf6zyna6a
       scule: 0.2.1
-      typescript: 4.7.2
+      typescript: 4.7.3
       untyped: 0.4.4
     transitivePeerDependencies:
       - supports-color
@@ -1672,8 +1672,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.13.0:
-    resolution: {integrity: sha512-vuYt3+G25MMnANgyMHHG3VK86C9K/VFi/8uH5myQ2v660W4WArv99ElakPlVFxxSXXM1jqQPiPj2ht35Bod9LQ==}
+  /vitest/0.14.0:
+    resolution: {integrity: sha512-3Ns7c6TindS6OmweY4dU7sWT7g/YJBenwsMdUMEO/oS81bzoCEaA58vlg/9U1WRjrNFwQYsuyISehAvCKwoMZQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
