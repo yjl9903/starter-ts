@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@types/node': 17.0.43
-      bumpp: 8.1.0
+      bumpp: 8.2.0
       prettier: 2.7.1
       typescript: 4.7.3
       unbuild: 0.7.4
@@ -13,7 +13,7 @@ importers:
       vitest: 0.15.1
     devDependencies:
       '@types/node': 17.0.43
-      bumpp: 8.1.0
+      bumpp: 8.2.0
       prettier: 2.7.1
       typescript: 4.7.3
       unbuild: 0.7.4
@@ -437,8 +437,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /bumpp/8.1.0:
-    resolution: {integrity: sha512-USNqoYA+xM50vJGDoChjG9J7IeZeyymi7OUC9WT58pUF9l2Ue0Q6f8ec5vdai2dD70C+bs1d5WRe/JHNNXiMGg==}
+  /bumpp/8.2.0:
+    resolution: {integrity: sha512-DhFa4DSREOwnHJQyQ+Qhj9pUJAIZKMEtuHN7BuQij4CoxSBc6n4bBZnlvFWuLXNMr0aCtsMXnkQWC/7GyGypYw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
