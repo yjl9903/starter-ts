@@ -30,7 +30,7 @@
   "scripts": {
     "build": "unbuild",
     "format": "prettier --write src/**/*.ts",
-    "release": "bumpp --commit --push --tag && pnpm release",
+    "release": "bumpp --commit --push --tag && pnpm publish",
     "preversion": "pnpm typecheck && pnpm build",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
