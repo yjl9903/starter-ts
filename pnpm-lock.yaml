@@ -1,24 +1,22 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@types/node': ^18.15.5
+  bumpp: ^9.0.0
+  prettier: ^2.8.6
+  typescript: ^5.0.2
+  unbuild: ^1.1.2
+  vite: ^4.2.1
+  vitest: ^0.29.7
 
-  .:
-    specifiers:
-      '@types/node': ^18.15.5
-      bumpp: ^9.0.0
-      prettier: ^2.8.6
-      typescript: ^5.0.2
-      unbuild: ^1.1.2
-      vite: ^4.2.1
-      vitest: ^0.29.7
-    devDependencies:
-      '@types/node': 18.15.5
-      bumpp: 9.0.0
-      prettier: 2.8.6
-      typescript: 5.0.2
-      unbuild: 1.1.2
-      vite: 4.2.1_@types+node@18.15.5
-      vitest: 0.29.7
+devDependencies:
+  '@types/node': 18.15.5
+  bumpp: 9.0.0
+  prettier: 2.8.6
+  typescript: 5.0.2
+  unbuild: 1.1.2
+  vite: 4.2.1_@types+node@18.15.5
+  vitest: 0.29.7
 
 packages:
 
