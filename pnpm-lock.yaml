@@ -4,31 +4,28 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
-
-  .:
-    devDependencies:
-      '@types/node':
-        specifier: ^20.12.7
-        version: 20.12.7
-      bumpp:
-        specifier: ^9.4.0
-        version: 9.4.0
-      prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
-      typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
-      unbuild:
-        specifier: ^2.0.0
-        version: 2.0.0(typescript@5.4.5)
-      vite:
-        specifier: ^5.2.8
-        version: 5.2.8(@types/node@20.12.7)
-      vitest:
-        specifier: ^1.5.0
-        version: 1.5.0(@types/node@20.12.7)
+devDependencies:
+  '@types/node':
+    specifier: ^20.12.7
+    version: 20.12.7
+  bumpp:
+    specifier: ^9.4.0
+    version: 9.4.0
+  prettier:
+    specifier: ^3.2.5
+    version: 3.2.5
+  typescript:
+    specifier: ^5.4.5
+    version: 5.4.5
+  unbuild:
+    specifier: ^2.0.0
+    version: 2.0.0(typescript@5.4.5)
+  vite:
+    specifier: ^5.2.8
+    version: 5.2.8(@types/node@20.12.7)
+  vitest:
+    specifier: ^1.5.0
+    version: 1.5.0(@types/node@20.12.7)
 
 packages:
 
