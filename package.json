@@ -1,18 +1,18 @@
 {
-  "name": "[name]",
+  "name": "[repo]",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/yjl9903/[name]#readme",
+  "homepage": "https://github.com/[actor]/[repo]#readme",
   "bugs": {
-    "url": "https://github.com/yjl9903/[name]/issues"
+    "url": "https://github.com/[actor]/[repo]/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yjl9903/[name].git"
+    "url": "git+https://github.com/[actor]/[repo].git"
   },
   "license": "MIT",
-  "author": "XLor",
+  "author": "[username]",
   "sideEffects": false,
   "exports": {
     ".": {
