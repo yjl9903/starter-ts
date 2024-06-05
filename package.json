@@ -36,7 +36,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "^20.14.1",
+    "@types/node": "^20.14.2",
     "bumpp": "^9.4.1",
     "prettier": "^3.3.0",
     "typescript": "^5.4.5",
