@@ -44,5 +44,5 @@
     "vite": "^5.4.6",
     "vitest": "^2.1.1"
   },
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@9.11.0"
 }
