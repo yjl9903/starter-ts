@@ -12,8 +12,8 @@ importers:
         specifier: ^22.10.5
         version: 22.10.5
       bumpp:
-        specifier: ^9.9.3
-        version: 9.9.3
+        specifier: ^9.10.0
+        version: 9.10.0
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -627,8 +627,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  bumpp@9.9.3:
-    resolution: {integrity: sha512-fEX4zIuFuDLCFaQtBFaiNtlUgYbDjd9fUbJqlDfER7Wz+KUOkEXeDs5qScsHX+jKYvTgD5xdOA4ZYYMAo5rC9A==}
+  bumpp@9.10.0:
+    resolution: {integrity: sha512-gNY3tYEGKyqW8+qtpeLQ2UfQW7G81d/vhCWNGrMlvy0Toq1LZPRs8wk9woAw8o9Tzv7pvjaF/Gno+UN3qiqNxA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1027,6 +1027,9 @@ packages:
   onetime@6.0.0:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
+
+  package-manager-detector@0.2.8:
+    resolution: {integrity: sha512-ts9KSdroZisdvKMWVAVCXiKqnqNfXz4+IbrBG8/BWx/TR5le+jfenvoBuIZ6UWM9nz47W7AbD9qYfAwfWMIwzA==}
 
   path-key@3.1.1:
     resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
@@ -1961,13 +1964,14 @@ snapshots:
       node-releases: 2.0.19
       update-browserslist-db: 1.1.1(browserslist@4.24.3)
 
-  bumpp@9.9.3:
+  bumpp@9.10.0:
     dependencies:
       c12: 2.0.1
       cac: 6.7.14
       escalade: 3.2.0
       js-yaml: 4.1.0
       jsonc-parser: 3.3.1
+      package-manager-detector: 0.2.8
       prompts: 2.4.2
       semver: 7.6.3
       tinyexec: 0.3.2
@@ -2395,6 +2399,8 @@ snapshots:
   onetime@6.0.0:
     dependencies:
       mimic-fn: 4.0.0
+
+  package-manager-detector@0.2.8: {}
 
   path-key@3.1.1: {}
 
